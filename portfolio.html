@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #007BFF;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Abhishek Joshi</h1>
+    <p>Future Full Stack Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="container card">
+        <h2>About Me</h2>
+        <p>I am a passionate engineering student learning web development and Python.</p>
+        <p>I want to build real-world projects and earn through freelancing.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="container card">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript (Beginner)</li>
+            <li>Python Programming</li>
+            <li>Problem Solving</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container card">
+        <h2>Projects</h2>
+        <p>1. Student Management System (Python)</p>
+        <p>2. Portfolio Website</p>
+        <p>3. Mini Web Apps (Coming Soon)</p>
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container card">
+        <h2>Contact</h2>
+        <p>Email: abhishek@example.com</p>
+        <p>Phone: 1234567890</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Abhishek Joshi | All Rights Reserved</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Thanks for visiting my portfolio!");
+    }
+</script>
+
+</body>
+</html>
