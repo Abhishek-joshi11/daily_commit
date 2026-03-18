@@ -1,3 +1,5 @@
+day 3 of learning 
+
 import random
 
 # generate random number between 1 and 10
