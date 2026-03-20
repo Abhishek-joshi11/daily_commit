@@ -102,3 +102,6 @@ def add_question(questions):
 # Run program
 if __name__ == "__main__":
     main()
+# Note: The above code is a simple quiz game. You can add more questions or features as needed.
+#   For example, you can allow users to add their own questions or keep track of high scores.
+#   This code is meant for educational purposes and can be expanded with more complex features like categories, timers, or multiplayer mode.
