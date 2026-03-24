@@ -112,3 +112,66 @@ if __name__ == "__main__":
     # add_question(questions)
 def show_welcome():
     print("Welcome to the Password Strength Checker! 🔐")
+# Extra feature: add custom question
+def ask_question(question, options, answer):
+    print("\n" + question)
+    for i, option in enumerate(options):
+        print(f"{i+1}. {option}")
+
+    choice = input("Enter your choice: ")
+
+    if choice.isdigit() and 1 <= int(choice) <= len(options):
+        selected = options[int(choice) - 1]
+        if selected == answer:
+            print("Correct! ✅")
+            return 1
+        else:
+            print("Wrong! ❌")
+            return 0
+    else:
+        print("Invalid choice.")
+        return 0        
+def run_quiz():         
+    score = 0
+    questions = [
+        {
+            "question": "What does CPU stand for?",
+            "options": [
+                "Central Process Unit",
+                "Central Processing Unit",
+                "Computer Personal Unit",
+                "Central Power Unit"
+            ],
+            "answer": "Central Processing Unit"
+        },
+        {
+            "question": "Which data type is used for text in Python?",                        
+            "options": ["int", "float", "str", "bool"],
+            "answer": "str"
+
+        },
+        {
+            "question": "What does RAM stand for?",
+            "options": [
+                "Random Access Memory",
+                "Read Access Memory",
+                "Run Access Memory",
+                "Random Active Memory"
+            ],
+            "answer": "Random Access Memory"
+        },
+        {
+            "question": "Which symbol is used for comments in Python?",
+            "options": ["//", "#", "<!-- -->", "--"],
+            "answer": "#"
+        },
+        {
+            "question": "What is the output of print(2 ** 3)?",
+            "options": ["5", "6", "8", "9"],
+            "answer": "8"
+        }
+    ]
+    for q in questions:
+        score += ask_question(q["question"], q["options"], q["answer"])
+    print(f"\nYour final score is: {score}/{len(questions)}")
+
