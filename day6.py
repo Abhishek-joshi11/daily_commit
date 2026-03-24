@@ -110,5 +110,5 @@ if __name__ == "__main__":
     main()
     # Extra feature: add custom question
     # add_question(questions)
-    # Extra feature: suggest strong password
-    # suggest_password()
+def show_welcome():
+    print("Welcome to the Password Strength Checker! 🔐")
