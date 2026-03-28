@@ -98,3 +98,20 @@ if __name__ == "__main__":
 
  # Quiz Game with Custom Questions
  # # Quiz Game with Custom Questions   
+ # This program allows users to play a quiz game with predefined questions and also add their own questions.
+def show_welcome():
+    print("Welcome to the Quiz Game! 🎉")
+    print("Test your knowledge and have fun!")
+
+def ask_question(question, options, answer):
+    print("\n" + question)
+    for i, option in enumerate(options):
+        print(f"{i+1}. {option}")
+
+    choice = input("Enter your choice: ")
+
+    if choice.isdigit() and 1 <= int(choice) <= len(options):
+        return options[int(choice)-1] == answer
+    else:
+        print("Invalid choice.")
+        return False
