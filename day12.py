@@ -75,13 +75,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-# This code demonstrates various functions for data generation, processing, and analysis. It includes random data generation, statistical calculations, and list operations.
-# The main function orchestrates the execution of these functionalities, showcasing how they can be used together in a cohesive manner.
-# Note: The random seed is set for reproducibility of results.
-
-
-
-
-## The code is structured to be easily extendable, allowing for additional functionalities or modifications as needed.
-#   
-#
