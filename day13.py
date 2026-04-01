@@ -117,3 +117,5 @@ if __name__ == "__main__":
     main()
     # This code implements a simple calculator with a history feature. Users can perform basic arithmetic operations and view or clear their calculation history. The history is stored in a text file, allowing for persistence across sessions.
 
+# The main function provides a menu-driven interface for users to interact with the calculator, while helper functions handle the specific operations and history management.
+# Note: The program includes error handling for invalid inputs and division by zero, ensuring a smooth user experience.
