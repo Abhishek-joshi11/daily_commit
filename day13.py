@@ -115,3 +115,5 @@ def initialize():
 if __name__ == "__main__":
     initialize()
     main()
+    # This code implements a simple calculator with a history feature. Users can perform basic arithmetic operations and view or clear their calculation history. The history is stored in a text file, allowing for persistence across sessions.
+
