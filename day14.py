@@ -111,6 +111,5 @@ if __name__ == "__main__":
     initialize()
     print(f"Loaded {count_passwords()} saved passwords.")
     main()
-
-
-    # This code implements a simple password manager that allows users to generate, save, view, search, and delete passwords. The passwords are stored in a text file for persistence. The program provides a menu-driven interface for easy navigation and includes error handling for edge cases such as empty files or invalid inputs.
+####
+# This code implements a simple password manager that allows users to generate, save, view, search, and delete passwords. The passwords are stored in a text file for persistence. The program provides a menu-driven interface for user interaction and includes error handling for various scenarios.
