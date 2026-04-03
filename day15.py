@@ -106,3 +106,5 @@ if __name__ == "__main__":
 
 # Password Manager
 # This program allows users to generate, view, search, and delete passwords for different websites. Passwords are stored in a local file for simplicity.
+#   
+#
