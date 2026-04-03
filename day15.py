@@ -103,3 +103,6 @@ if __name__ == "__main__":
     initialize()
     print(f"Loaded {count_users()} users.")
     main()
+
+# Password Manager
+# This program allows users to generate, view, search, and delete passwords for different websites. Passwords are stored in a local file for simplicity.
