@@ -187,12 +187,5 @@ if __name__ == "__main__":
     main()
 
 
-
-NotADirectoryError: [Errno 20] Not a directory: 'passwords.txt'
-This error occurs when the program tries to open a file that is expected to be a directory. In this case, it seems like there might be an issue with the file path or the way the file is being accessed.
-To fix this error, you can try the following steps:
-1. Check the file path: Make sure that the file path specified in the code is correct and that the file "passwords.txt" exists in the expected location.
-2. Ensure it's a file, not a directory: Verify that "passwords.txt" is indeed a file and not a directory. You can do this by checking the file properties or using the command line to list the contents of the directory.
-3. Use absolute path: Instead of using a relative path, try using an absolute path to   access the file. For example, you can specify the full path to the file like "C:/path/to/passwords.txt".
-4. Check for typos: Ensure that there are no typos in the file name or path that could be causing the issue.
-5. Permissions: Make sure that the program has the necessary permissions to access the file. You may need to adjust the file permissions or run the program with elevated privileges if necessary.  
+fnjnfjn 
+rjfjmifjr
